@@ -16,7 +16,7 @@ pipeline{
 				sh 'free -m'
 			}
 		}
-		stage(3-'check the disk'){
+		stage('3-check the disk'){
 			steps{
 				sh 'lsblk'
 			}
